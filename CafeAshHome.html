@@ -11,12 +11,15 @@
 
     <!-- Below we have our custom CSS file and some links for CDNs and fonts --> 
     <link rel="stylesheet" type="text/css" href="/jmezavin.github.io/CSS/CafeAshStyle.css">
+    <!--the github is to ensure the site works properly on our github site-->
 	<script src="https://use.fontawesome.com/89a627ae50.js"></script> 
 	<!-- The line above, as with the line below, are both needed to use content delivery networks -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"> 
 	<!-- The font awesome src is for our icons, and the second is for our animated movements-->
 	<script src="https://kit.fontawesome.com/d20023e9b9.js" crossorigin="anonymous"></script>
 	<!-- We should be done!-->
+	<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.4.0/dist/lazyload.min.js"></script>
+	<!-- ^ Should make site load faster!-->
 
 	<title>
 		Cafe Ash
@@ -84,7 +87,7 @@
 	<div class = "images">
 		<div class = "row"> 
 			<div class = "col-sm-4">
-				<img src="https://vtile03-cdn.maptoolkit.net/raster/toursprung/terrain/10/541/331.png">
+				<img class = "lazy" data-src="https://vtile03-cdn.maptoolkit.net/raster/toursprung/terrain/10/541/331.png">
 					<div class = "directions">
 						<p>
 							Gneisenaustraße 27
@@ -123,7 +126,7 @@
 
 
 			<div class = "col-sm-5">
-				<img id = "coffeeShop" src="https://images.unsplash.com/photo-1505275350441-83dcda8eeef5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3067&q=80" class= "img-fluid float-right">
+				<img class="lazy" id = "coffeeShop" data-src="https://images.unsplash.com/photo-1505275350441-83dcda8eeef5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3067&q=80" class= "img-fluid float-right">
 			</div>
 		</div>
 	</div>
@@ -167,6 +170,13 @@
 	  </div>
 	</footer>
 
+	<script>
+			var myLazyLoad = new LazyLoad({
+		    elements_selector: ".lazy",
+		    load_delay: 300 //adjust according to use case
+		});
+	</script>
+	
 </body>
 
 </html>
