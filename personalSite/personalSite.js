@@ -45,7 +45,7 @@ $(document).ready(function(){
 
         else{
         	$("#banner").html('<h1>Juan Diego Meza Vinasco</h1>'+'<p id="blurb"> (site in progress!) your number juan choice for all your data/finance/gamedev/webdev needs</p>');
-			$("#mynav").html('<a id="activeTab" class="navbar-brand" href="jmezavin.github.io/index.html">Home</a>'+
+			$("#mynav").html('<a id="activeTab" class="navbar-brand" href="https://jmezavin.github.io/">Home</a>'+
 		  						'<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">'+
 		    						'<span class="navbar-toggler-icon"></span>'+
 		  						'</button>'+
