@@ -5,7 +5,7 @@ $(document).ready(function(){
 
         if (pagefile.includes("Projects")){
             $("#banner").html('<h1>Projects</h1>');
-			$("#mynav").html('<a class="navbar-brand" href="jmezavin.github.io/index.html">Home</a>'+
+			$("#mynav").html('<a class="navbar-brand" href="https://jmezavin.github.io/">Home</a>'+
 		  						'<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">'+
 		    						'<span class="navbar-toggler-icon"></span>'+
 		  						'</button>'+
@@ -13,11 +13,11 @@ $(document).ready(function(){
 		  					'<div class="collapse navbar-collapse" id="collapsibleNavbar">'+
 		    					'<ul class="navbar-nav">'+
 		      						'<li class="nav-item">'+
-		        						'<a id="activeTab" class="nav-link" href="file:///Users/juanmeza/WebDevProjects/jmezavin.github.io/personalSite/personalSiteProjects.html">Projects</a>'+
+		        						'<a id="activeTab" class="nav-link" href="https://jmezavin.github.io/personalSite/personalSiteProjects.html">Projects</a>'+
 		      						'</li>'+
 
 		      						'<li class="nav-item">'+
-		        						'<a class="nav-link" href="file:///Users/juanmeza/WebDevProjects/jmezavin.github.io/personalSite/personalSiteResume.html">Resume</a>'+
+		        						'<a class="nav-link" href="https://jmezavin.github.io/personalSite/personalSiteResume.html">Resume</a>'+
 		      						'</li>'+   
 		    					'</ul>'+
 		  					'</div>');
@@ -25,7 +25,7 @@ $(document).ready(function(){
 
         else if (pagefile.includes("Resume")){
             $("#banner").html('<h1>Resume</h1>');
-			$("#mynav").html('<a class="navbar-brand" href="file:///Users/juanmeza/WebDevProjects/jmezavin.github.io/index.html">Home</a>'+
+			$("#mynav").html('<a class="navbar-brand" href="https://jmezavin.github.io/">Home</a>'+
 		  						'<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">'+
 		    						'<span class="navbar-toggler-icon"></span>'+
 		  						'</button>'+
@@ -33,11 +33,11 @@ $(document).ready(function(){
 		  					'<div class="collapse navbar-collapse" id="collapsibleNavbar">'+
 		    					'<ul class="navbar-nav">'+
 		      						'<li class="nav-item">'+
-		        						'<a class="nav-link" href="file:///Users/juanmeza/WebDevProjects/jmezavin.github.io/personalSite/personalSiteProjects.html">Projects</a>'+
+		        						'<a class="nav-link" href="https://jmezavin.github.io/personalSite/personalSiteProjects.html">Projects</a>'+
 		      						'</li>'+
 
 		      						'<li class="nav-item">'+
-		        						'<a id="activeTab" class="nav-link" href="file:///Users/juanmeza/WebDevProjects/jmezavin.github.io/personalSite/personalSiteResume.html">Resume</a>'+
+		        						'<a id="activeTab" class="nav-link" href="https://jmezavin.github.io/personalSite/personalSiteResume.html">Resume</a>'+
 		      						'</li>'+   
 		    					'</ul>'+
 		  					'</div>');
@@ -53,11 +53,11 @@ $(document).ready(function(){
 		  					'<div class="collapse navbar-collapse" id="collapsibleNavbar">'+
 		    					'<ul class="navbar-nav">'+
 		      						'<li class="nav-item">'+
-		        						'<a class="nav-link" href="jmezavin.github.io/personalSite/personalSiteProjects.html">Projects</a>'+
+		        						'<a class="nav-link" href="https://jmezavin.github.io/personalSite/personalSiteProjects.html">Projects</a>'+
 		      						'</li>'+
 
 		      						'<li class="nav-item">'+
-		        						'<a class="nav-link" href="jmezavin.github.io/personalSite/personalSiteResume.html">Resume</a>'+
+		        						'<a class="nav-link" href="https://jmezavin.github.io/personalSite/personalSiteResume.html">Resume</a>'+
 		      						'</li>'+   
 		    					'</ul>'+
 		  					'</div>');
