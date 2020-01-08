@@ -5,7 +5,7 @@ $(document).ready(function(){
 
         if (pagefile.includes("Projects")){
             $("#banner").html('<h1>Projects</h1>');
-			$("#mynav").html('<a class="navbar-brand" href="personalSite/personalSite.html">Home</a>'+
+			$("#mynav").html('<a class="navbar-brand" href="index.html">Home</a>'+
 		  						'<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">'+
 		    						'<span class="navbar-toggler-icon"></span>'+
 		  						'</button>'+
@@ -25,7 +25,7 @@ $(document).ready(function(){
 
         else if (pagefile.includes("Resume")){
             $("#banner").html('<h1>Resume</h1>');
-			$("#mynav").html('<a class="navbar-brand" href="personalSite/personalSite.html">Home</a>'+
+			$("#mynav").html('<a class="navbar-brand" href="index.html">Home</a>'+
 		  						'<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">'+
 		    						'<span class="navbar-toggler-icon"></span>'+
 		  						'</button>'+
@@ -45,7 +45,7 @@ $(document).ready(function(){
 
         else{
         	$("#banner").html('<h1>Juan Diego Meza Vinasco</h1>'+'<p id="blurb"> (site in progress!) your number juan choice for all your data/finance/gamedev/webdev needs</p>');
-			$("#mynav").html('<a id="activeTab" class="navbar-brand" href="personalSite/personalSite.html">Home</a>'+
+			$("#mynav").html('<a id="activeTab" class="navbar-brand" href="index.html">Home</a>'+
 		  						'<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">'+
 		    						'<span class="navbar-toggler-icon"></span>'+
 		  						'</button>'+
