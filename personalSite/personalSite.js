@@ -5,7 +5,7 @@ $(document).ready(function(){
 
         if (pagefile.includes("Projects")){
             $("#banner").html('<h1>Projects</h1>');
-			$("#mynav").html('<a class="navbar-brand" href="personalSite.html">Home</a>'+
+			$("#mynav").html('<a class="navbar-brand" href="personalSite/personalSite.html">Home</a>'+
 		  						'<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">'+
 		    						'<span class="navbar-toggler-icon"></span>'+
 		  						'</button>'+
@@ -13,11 +13,11 @@ $(document).ready(function(){
 		  					'<div class="collapse navbar-collapse" id="collapsibleNavbar">'+
 		    					'<ul class="navbar-nav">'+
 		      						'<li class="nav-item">'+
-		        						'<a id="activeTab" class="nav-link" href="personalSiteProjects.html">Projects</a>'+
+		        						'<a id="activeTab" class="nav-link" href="personalSite/personalSiteProjects.html">Projects</a>'+
 		      						'</li>'+
 
 		      						'<li class="nav-item">'+
-		        						'<a class="nav-link" href="personalSiteResume.html">Resume</a>'+
+		        						'<a class="nav-link" href="personalSite/personalSiteResume.html">Resume</a>'+
 		      						'</li>'+   
 		    					'</ul>'+
 		  					'</div>');
@@ -25,7 +25,7 @@ $(document).ready(function(){
 
         else if (pagefile.includes("Resume")){
             $("#banner").html('<h1>Resume</h1>');
-			$("#mynav").html('<a class="navbar-brand" href="personalSite.html">Home</a>'+
+			$("#mynav").html('<a class="navbar-brand" href="personalSite/personalSite.html">Home</a>'+
 		  						'<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">'+
 		    						'<span class="navbar-toggler-icon"></span>'+
 		  						'</button>'+
@@ -33,11 +33,11 @@ $(document).ready(function(){
 		  					'<div class="collapse navbar-collapse" id="collapsibleNavbar">'+
 		    					'<ul class="navbar-nav">'+
 		      						'<li class="nav-item">'+
-		        						'<a class="nav-link" href="personalSiteProjects.html">Projects</a>'+
+		        						'<a class="nav-link" href="personalSite/personalSiteProjects.html">Projects</a>'+
 		      						'</li>'+
 
 		      						'<li class="nav-item">'+
-		        						'<a id="activeTab" class="nav-link" href="personalSiteResume.html">Resume</a>'+
+		        						'<a id="activeTab" class="nav-link" href="personalSite/personalSiteResume.html">Resume</a>'+
 		      						'</li>'+   
 		    					'</ul>'+
 		  					'</div>');
@@ -45,7 +45,7 @@ $(document).ready(function(){
 
         else{
         	$("#banner").html('<h1>Juan Diego Meza Vinasco</h1>'+'<p id="blurb"> (site in progress!) your number juan choice for all your data/finance/gamedev/webdev needs</p>');
-			$("#mynav").html('<a id="activeTab" class="navbar-brand" href="personalSite.html">Home</a>'+
+			$("#mynav").html('<a id="activeTab" class="navbar-brand" href="personalSite/personalSite.html">Home</a>'+
 		  						'<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">'+
 		    						'<span class="navbar-toggler-icon"></span>'+
 		  						'</button>'+
@@ -53,11 +53,11 @@ $(document).ready(function(){
 		  					'<div class="collapse navbar-collapse" id="collapsibleNavbar">'+
 		    					'<ul class="navbar-nav">'+
 		      						'<li class="nav-item">'+
-		        						'<a class="nav-link" href="personalSiteProjects.html">Projects</a>'+
+		        						'<a class="nav-link" href="personalSite/personalSiteProjects.html">Projects</a>'+
 		      						'</li>'+
 
 		      						'<li class="nav-item">'+
-		        						'<a class="nav-link" href="personalSiteResume.html">Resume</a>'+
+		        						'<a class="nav-link" href="personalSite/personalSiteResume.html">Resume</a>'+
 		      						'</li>'+   
 		    					'</ul>'+
 		  					'</div>');
