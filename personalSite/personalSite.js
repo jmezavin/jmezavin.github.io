@@ -13,11 +13,11 @@ $(document).ready(function(){
 		  					'<div class="collapse navbar-collapse" id="collapsibleNavbar">'+
 		    					'<ul class="navbar-nav">'+
 		      						'<li class="nav-item">'+
-		        						'<a id="activeTab" class="nav-link" href="/personalSiteProjects.html">Projects</a>'+
+		        						'<a id="activeTab" class="nav-link" href="personalSiteProjects.html">Projects</a>'+
 		      						'</li>'+
 
 		      						'<li class="nav-item">'+
-		        						'<a class="nav-link" href="/personalSiteResume.html">Resume</a>'+
+		        						'<a class="nav-link" href="personalSiteResume.html">Resume</a>'+
 		      						'</li>'+   
 		    					'</ul>'+
 		  					'</div>');
@@ -33,11 +33,11 @@ $(document).ready(function(){
 		  					'<div class="collapse navbar-collapse" id="collapsibleNavbar">'+
 		    					'<ul class="navbar-nav">'+
 		      						'<li class="nav-item">'+
-		        						'<a class="nav-link" href="personalSite/personalSiteProjects.html">Projects</a>'+
+		        						'<a class="nav-link" href="personalSiteProjects.html">Projects</a>'+
 		      						'</li>'+
 
 		      						'<li class="nav-item">'+
-		        						'<a id="activeTab" class="nav-link" href="personalSite/personalSiteResume.html">Resume</a>'+
+		        						'<a id="activeTab" class="nav-link" href="personalSiteResume.html">Resume</a>'+
 		      						'</li>'+   
 		    					'</ul>'+
 		  					'</div>');
@@ -53,11 +53,11 @@ $(document).ready(function(){
 		  					'<div class="collapse navbar-collapse" id="collapsibleNavbar">'+
 		    					'<ul class="navbar-nav">'+
 		      						'<li class="nav-item">'+
-		        						'<a class="nav-link" href="personalSite/personalSiteProjects.html">Projects</a>'+
+		        						'<a class="nav-link" href="personalSiteProjects.html">Projects</a>'+
 		      						'</li>'+
 
 		      						'<li class="nav-item">'+
-		        						'<a class="nav-link" href="personalSite/personalSiteResume.html">Resume</a>'+
+		        						'<a class="nav-link" href="personalSiteResume.html">Resume</a>'+
 		      						'</li>'+   
 		    					'</ul>'+
 		  					'</div>');
