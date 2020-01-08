@@ -1,0 +1,13 @@
+body { background-color: silver; } /* changes the webpage background color! */ 
+h1 {color: #701e8e; font-family: 'Open Sans', sans-serif;} /* the color is a darkish shade of purple */ 
+h2 {color: maroon;}
+p {color: navy; font-family: 'Times New Roman'; border-style: dashed; border-width: 2.5px; border-color: purple;}
+
+.quarters {width: 24.5%; display: inline-block;} /*in our thirds/quarters div class, we set width and display options */
+/* the reason why it's not 25% is because the browser adds some automatic padding */ 
+
+.halves {width: 48.5%; display: inline-block; border-style: solid; border-width: 2.5px} 
+
+.fluid { width: 100%; } /* works with images and how they "overflow" (or don't) */
+
+

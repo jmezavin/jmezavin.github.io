@@ -1,0 +1,56 @@
+/*personalSite.css*/
+.fakeimg{
+height: 200px;
+background: lightgray;
+}
+
+.jumbotron{
+	margin-bottom: 0;
+	background-color: #343a40;
+}
+
+.container{
+	margin-top: 30px;
+}
+
+#footer{
+	background-color: gray;
+	margin-bottom: 0;
+	padding: 12px;
+	font-size: 12px;
+}
+
+.fab{
+	color: darkblue;
+	font-size: 32px;
+}
+
+.navbar-dark .navbar-brand {
+    color: gray;
+    font-size: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: gray;
+    font-size: 20px;
+}
+
+#activeTab{
+	color:white;
+	font-weight: bold;
+}
+
+#profilePic{
+	width: 100%;
+	margin-top: 36px;
+}
+
+body, p, h2, h5{
+	font-family: 'Open Sans', sans-serif;
+	color:white;
+	background-color: gray;
+}
+
+#blurb{
+	background-color: #343a40;
+}

@@ -69,7 +69,6 @@ h1 {
 	padding-bottom: 0px;
 }
 
-
 h5{
 	margin-top: 5px;
 	margin-left: 25px;
@@ -95,4 +94,23 @@ h4{
 
 #onlyButton{
 	margin-top: 5px;
+}
+
+a{
+	color:black;
+}
+
+#schoko{
+	width:100px;
+	height:100px;
+}
+
+#marble{
+	width:100px;
+	height:100px;
+}
+
+#ironMan{
+	height: 420px;
+	border: solid;
 }
