@@ -6,7 +6,7 @@ background: lightgray;
 
 .jumbotron{
 	margin-bottom: 0;
-	background-color: #343a40;
+	background-color: #26262b;
 }
 
 .container{
@@ -14,7 +14,7 @@ background: lightgray;
 }
 
 #footer{
-	background-color: gray;
+	background-color: #26262b;
 	margin-bottom: 0;
 	padding: 12px;
 	font-size: 12px;
@@ -48,9 +48,9 @@ background: lightgray;
 body, p, h2, h5{
 	font-family: 'Open Sans', sans-serif;
 	color:white;
-	background-color: gray;
+	background-color: #26262b;
 }
 
 #blurb{
-	background-color: #343a40;
+	background-color: #26262b;
 }
