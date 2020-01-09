@@ -63,5 +63,5 @@ $(document).ready(function(){
 		  					'</div>');
         }
 
-	$("#footer").html("Contact me at: <br> Email: 123456@gmail.com </br> Phone: 201-111-2222");
+	$("#footer").html("Contact me at: <br> Email: jmezavin@andrew.cmu.edu </br> Phone: 201-660-3820");
 });
