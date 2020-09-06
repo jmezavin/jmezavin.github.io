@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{w2l6:function(n,t,e){"use strict";e.r(t),e.d(t,"default",(function(){return r}));e("q1tI");var i=e("qKvR");function r(){return Object(i.d)("div",null,Object(i.d)("h1",{style:{textAlign:"center",margin:"25%"}}," This page is a work in progress "))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-da732bf0bccb20bec784.js.map
